@@ -26,7 +26,7 @@
 
         layer4_ESC {
             bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+            key-positions = <37 40>;
         };
 
         tab {
@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E            &kp R          &kp T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D            &kp F          &kp G                                  &kp LEFT_PARENTHESIS    &kp H        &kp J  &kp K      &lt 2 L  &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V          &kp B        &kp TAB                   &kp RIGHT_PARENTHESIS   &kp N        &kp M  &kp COMMA  &kp DOT  &kp UNDERSCORE
-&kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &kp BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1  &lt 1 ENTER                             &kp LEFT_ALT
+&kp Q             &kp W         &kp E            &kp R          &kp T                                                               &kp Y                        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D            &kp F          &kp G                                       &kp LEFT_PARENTHESIS    &kp H                        &kp J  &kp K      &kp L    &lt 2 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V          &kp B                        &kp TAB        &kp RIGHT_PARENTHESIS   &kp N                        &kp M  &kp COMMA  &kp DOT  &kp UNDERSCORE
+&kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &kp BACKSPACE  &lt_to_layer_0 3 LANGUAGE_2  &lt 2 SPACE    &lt_to_layer_0 1 ENTER  &lt_to_layer_0 3 LANGUAGE_1                             &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SQT   &kp EQUAL  &kp TILDE      &kp NON_US_BACKSLASH
-&kp AT_SIGN      &kp PLUS           &kp MINUS  &kp ASTERISK  &kp SLASH               &trans   &mkp MB3       &mkp MB1  &mkp MB2   &kp SEMICOLON  &kp COLON
-&kp F1           &kp F2             &kp F3     &kp F4        &kp F5       &kp F11    &kp F12  &kp F6         &kp F7    &kp F8     &kp F9         &kp F10
-&trans           &trans             &trans     &trans        &trans       &trans     &trans   &trans                                             &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SQT   &kp EQUAL  &kp TILDE  &kp NON_US_BACKSLASH
+&kp AT_SIGN      &kp PLUS           &kp MINUS  &kp ASTERISK  &kp SLASH               &trans   &kp SEMI       &mkp MB3  &mkp MB1   &mkp MB2   &kp COLON
+&kp F1           &kp F2             &kp F3     &kp F4        &kp F5       &kp F11    &kp F12  &kp F6         &kp F7    &kp F8     &kp F9     &kp F10
+&trans           &trans             &trans     &trans        &trans       &trans     &trans   &trans                                         &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
