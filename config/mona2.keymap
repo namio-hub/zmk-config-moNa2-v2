@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_N4     &kp KP_N5                    &kp KP_N6     &kp KP_N7   &kp KP_N8   &kp KP_N9  &kp KP_N0
-&none         &none         &kp ASTERISK  &kp SLASH     &none                &trans  &none         &kp LS(N8)  &kp LS(N9)  &kp PIPE   &kp BACKSLASH
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &trans    &trans  &kp NUMBER_6  &kp N7      &kp N8      &kp N9     &kp N0
-&trans        &trans        &trans        &trans        &trans     &trans    &trans  &trans                                           &trans
+&kp N1        &kp N2        &kp N3        &kp N4         &kp N5                    &kp N6        &kp N7      &kp N8      &kp N9    &kp N0
+&none         &none         &none         &kp BACKSLASH  &none             &trans  &none         &kp LS(N8)  &kp LS(N9)  &kp PIPE  &kp BACKSLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6  &kp N7      &kp N8      &kp N9    &kp N0
+&trans        &trans        &trans        &trans         &trans  &trans    &trans  &trans                                          &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -113,10 +113,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp LS(N2)  &kp POUND       &kp DOLLAR    &kp PERCENT                        &kp LS(N6)  &kp LS(N7)  &kp UNDERSCORE  &kp PLUS       &kp NON_US_BACKSLASH
-&kp MINUS        &kp PLUS    &kp MINUS       &kp ASTERISK  &kp SLASH               &kp QMARK  &mkp MB3    &mkp MB1    &mkp MB2        &kp SEMICOLON  &kp SQT
-&kp F1           &kp F2      &kp F3          &kp F4        &kp F5       &kp F11    &kp F12    &kp F6      &kp F7      &kp F8          &kp F9         &kp F10
-&trans           &trans      &kp LEFT_SHIFT  &trans        &trans       &trans     &trans     &trans                                                 &trans
+&kp EXCLAMATION  &kp LS(N2)         &kp POUND       &kp DOLLAR   &kp PERCENT                        &kp LS(N6)  &kp LS(N7)  &kp UNDERSCORE  &kp PLUS       &none
+&none            &kp LS(SEMICOLON)  &kp MINUS       &kp LS(SQT)  &kp SLASH               &kp QMARK  &mkp MB3    &mkp MB1    &mkp MB2        &kp SEMICOLON  &kp SQT
+&kp F1           &kp F2             &kp F3          &kp F4       &kp F5       &kp F11    &kp F12    &kp F6      &kp F7      &kp F8          &kp F9         &kp F10
+&trans           &trans             &kp LEFT_SHIFT  &trans       &trans       &trans     &trans     &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
