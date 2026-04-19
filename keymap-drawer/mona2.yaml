@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - _
+  - Sft+\
   - LCTRL
   - LEFT WIN
   - PRINTSCREEN
@@ -56,13 +56,13 @@ layers:
   - KP 0
   - ''
   - ''
-  - '['
-  - ']'
+  - '*'
+  - ':'
   - ''
   - {t: ▽, type: trans}
   - ''
-  - (
-  - )
+  - Sft+8
+  - Sft+9
   - '|'
   - \
   - '1'
@@ -88,26 +88,26 @@ layers:
   - {t: ▽, type: trans}
   '2':
   - '!'
-  - '"'
+  - Sft+2
   - '#'
   - $
   - '%'
-  - '&'
-  - ''''
-  - '='
-  - '~'
+  - Sft+6
+  - Sft+7
+  - _
+  - Sft+0
   - \
-  - '@'
+  - '-'
   - +
   - '-'
   - '*'
   - /
-  - {t: ▽, type: trans}
+  - '?'
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
   - ;
-  - {t: ':', type: held}
+  - {t: '''', type: held}
   - F1
   - F2
   - F3
@@ -145,7 +145,7 @@ layers:
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -157,7 +157,7 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - DELETE
   - PAGE UP
