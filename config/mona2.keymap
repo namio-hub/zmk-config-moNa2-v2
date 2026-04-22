@@ -93,7 +93,7 @@
             bindings = <
 &kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &lt 2 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(BSLH)
+&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp CARET
 &kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &lt_to_layer_0 0 LANGUAGE_2  &lt_to_layer_0 2 LANGUAGE_1  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE                             &kp LEFT_ALT
             >;
 
@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp N1        &kp N2        &kp N3        &kp N4         &kp N5                    &kp N6        &kp N7      &kp N8      &kp N9    &kp N0
-&none         &none         &none         &kp BACKSLASH  &none             &trans  &none         &kp LS(N8)  &kp LS(N9)  &kp PIPE  &kp BACKSLASH
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6  &kp N7      &kp N8      &kp N9    &kp N0
-&trans        &trans        &trans        &trans         &trans  &trans    &trans  &trans                                          &trans
+&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                         &kp N6             &kp N7      &kp N8      &kp N9    &kp N0
+&kp LEFT_BRACKET  &kp EQUAL     &kp RIGHT_BRACKET  &kp BACKSLASH  &kp AT_SIGN            &trans  &kp DOUBLE_QUOTES  &kp LS(N8)  &kp LS(N9)  &kp PIPE  &kp BACKSLASH
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5       &trans    &trans  &kp NUMBER_6       &kp N7      &kp N8      &kp N9    &kp N0
+&trans            &trans        &kp LEFT_SHIFT     &trans         &trans       &trans    &trans  &trans                                               &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
