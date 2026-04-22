@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - INTERNATIONAL 6
+  - Sft+INTERNATIONAL 1
   - LCTRL
   - LEFT WIN
   - PRINTSCREEN
@@ -55,16 +55,16 @@ layers:
   - '9'
   - '0'
   - '['
-  - INTERNATIONAL 3
+  - ''
   - ']'
   - \
-  - INTERNATIONAL 1
+  - ''
   - {t: ▽, type: trans}
-  - INTERNATIONAL 2
+  - INTERNATIONAL 7
   - Sft+8
   - Sft+9
-  - INTERNATIONAL 4
-  - INTERNATIONAL 5
+  - INTERNATIONAL 8
+  - INTERNATIONAL 9
   - '1'
   - '2'
   - '3'
@@ -96,8 +96,8 @@ layers:
   - Sft+7
   - _
   - +
-  - ''
-  - ''
+  - INTERNATIONAL 3
+  - _
   - Sft+;
   - '-'
   - Sft+'
