@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                    &kp N6               &kp N7      &kp N8      &kp N9               &kp N0
-&kp LEFT_BRACKET  &none         &kp RIGHT_BRACKET  &kp BACKSLASH  &none             &trans  &kp INTERNATIONAL_7  &kp LS(N8)  &kp LS(N9)  &kp INTERNATIONAL_8  &kp INTERNATIONAL_9
-&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6         &kp N7      &kp N8      &kp N9               &kp N0
-&trans            &trans        &kp LEFT_SHIFT     &trans         &trans  &trans    &trans  &trans                                                            &trans
+&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                    &kp N6        &kp N7      &kp N8      &kp N9  &kp N0
+&kp LEFT_BRACKET  &none         &kp RIGHT_BRACKET  &kp BACKSLASH  &none             &trans  &none         &kp LS(N8)  &kp LS(N9)  &none   &none
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6  &kp N7      &kp N8      &kp N9  &kp N0
+&trans            &trans        &kp LEFT_SHIFT     &trans         &trans  &trans    &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -124,13 +124,13 @@
 
         layer_3 {
             bindings = <
-&trans          &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                       &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &mkp MB4  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &mkp MB5  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&kp LCTRL       &trans              &trans                  &trans                   &trans                   &trans    &trans    &trans                                                   &trans
+&trans          &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                       &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &mkp MB4  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &mkp MB5  &mkp MB5  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&kp LCTRL       &trans              &trans                  &trans                   &trans                   &trans    &trans    &trans                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         layer_4 {
