@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                         &kp N6             &kp N7      &kp N8      &kp N9    &kp N0
-&kp LEFT_BRACKET  &kp EQUAL     &kp RIGHT_BRACKET  &kp BACKSLASH  &kp AT_SIGN            &trans  &kp DOUBLE_QUOTES  &kp LS(N8)  &kp LS(N9)  &kp PIPE  &kp BACKSLASH
-&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5       &trans    &trans  &kp NUMBER_6       &kp N7      &kp N8      &kp N9    &kp N0
-&trans            &trans        &kp LEFT_SHIFT     &trans         &trans       &trans    &trans  &trans                                               &trans
+&kp N1            &kp N2         &kp N3             &kp N4         &kp N5                             &kp N6                 &kp N7      &kp N8      &kp N9     &kp N0
+&kp LEFT_BRACKET  &kp LS(EQUAL)  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(AT_SIGN)            &trans  &kp LS(DOUBLE_QUOTES)  &kp LS(N8)  &kp LS(N9)  &kp PIPE2  &kp LS(BACKSLASH)
+&kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3       &kp NUMBER_4   &kp N5           &trans    &trans  &kp NUMBER_6           &kp N7      &kp N8      &kp N9     &kp N0
+&trans            &trans         &kp LEFT_SHIFT     &trans         &trans           &trans    &trans  &trans                                                    &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
