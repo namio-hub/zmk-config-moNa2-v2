@@ -93,7 +93,7 @@
             bindings = <
 &kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &lt 2 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp INTERNATIONAL_6
+&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
 &kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &lt_to_layer_0 0 LANGUAGE_2  &lt_to_layer_0 2 LANGUAGE_1  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE                             &kp LEFT_ALT
             >;
 
@@ -102,10 +102,10 @@
 
         layer_1 {
             bindings = <
-&kp N1            &kp N2               &kp N3             &kp N4         &kp N5                                 &kp N6               &kp N7      &kp N8      &kp N9               &kp N0
-&kp LEFT_BRACKET  &kp INTERNATIONAL_3  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp INTERNATIONAL_1            &trans  &kp INTERNATIONAL_2  &kp LS(N8)  &kp LS(N9)  &kp INTERNATIONAL_4  &kp INTERNATIONAL_5
-&kp NUMBER_1      &kp NUMBER_2         &kp NUMBER_3       &kp NUMBER_4   &kp N5               &trans    &trans  &kp NUMBER_6         &kp N7      &kp N8      &kp N9               &kp N0
-&trans            &trans               &kp LEFT_SHIFT     &trans         &trans               &trans    &trans  &trans                                                            &trans
+&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                    &kp N6               &kp N7      &kp N8      &kp N9               &kp N0
+&kp LEFT_BRACKET  &none         &kp RIGHT_BRACKET  &kp BACKSLASH  &none             &trans  &kp INTERNATIONAL_7  &kp LS(N8)  &kp LS(N9)  &kp INTERNATIONAL_8  &kp INTERNATIONAL_9
+&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6         &kp N7      &kp N8      &kp N9               &kp N0
+&trans            &trans        &kp LEFT_SHIFT     &trans         &trans  &trans    &trans  &trans                                                            &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -113,8 +113,8 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp LS(N2)         &kp POUND       &kp DOLLAR   &kp PERCENT                        &kp LS(N6)  &kp LS(N7)  &kp UNDERSCORE  &kp PLUS       &none
-&none            &kp LS(SEMICOLON)  &kp MINUS       &kp LS(SQT)  &kp SLASH               &kp QMARK  &mkp MB3    &mkp MB1    &mkp MB2        &kp SEMICOLON  &kp SQT
+&kp EXCLAMATION  &kp LS(N2)         &kp POUND       &kp DOLLAR   &kp PERCENT                        &kp LS(N6)  &kp LS(N7)  &kp UNDERSCORE  &kp PLUS       &kp INTERNATIONAL_3
+&kp UNDERSCORE   &kp LS(SEMICOLON)  &kp MINUS       &kp LS(SQT)  &kp SLASH               &kp QMARK  &mkp MB3    &mkp MB1    &mkp MB2        &kp SEMICOLON  &kp SQT
 &kp F1           &kp F2             &kp F3          &kp F4       &kp F5       &kp F11    &kp F12    &kp F6      &kp F7      &kp F8          &kp F9         &kp F10
 &trans           &trans             &kp LEFT_SHIFT  &trans       &trans       &trans     &trans     &trans                                                 &trans
             >;
