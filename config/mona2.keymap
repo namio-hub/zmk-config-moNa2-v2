@@ -36,17 +36,37 @@
 
         click1 {
             bindings = <&mkp MB1>;
-            key-positions = <17 18>;
+            key-positions = <19 9>;
         };
 
         click2 {
             bindings = <&mkp MB2>;
-            key-positions = <18 19>;
+            key-positions = <20 19>;
         };
 
         click3 {
             bindings = <&mkp MB3>;
-            key-positions = <20 19>;
+            key-positions = <19 32>;
+        };
+
+        left_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <2 3>;
+        };
+
+        right_bracket {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <6 7>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LS(NUMBER_8)>;
+            key-positions = <12 13>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp LS(NUMBER_9)>;
+            key-positions = <17 18>;
         };
     };
 
@@ -91,8 +111,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &lt 3 P
-&kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &lt 2 L  &lt 5 MINUS
+&kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &lt 3 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
 &kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &lt_to_layer_0 0 LANGUAGE_2  &lt_to_layer_0 2 LANGUAGE_1  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE                             &kp LEFT_ALT
             >;
@@ -102,10 +122,10 @@
 
         layer_1 {
             bindings = <
-&kp N1            &kp N2        &kp N3             &kp N4         &kp N5                    &kp N6        &kp N7      &kp N8      &kp N9  &kp N0
-&kp LEFT_BRACKET  &none         &kp RIGHT_BRACKET  &kp BACKSLASH  &none             &trans  &none         &kp LS(N8)  &kp LS(N9)  &none   &none
-&kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp N5  &trans    &trans  &kp NUMBER_6  &kp N7      &kp N8      &kp N9  &kp N0
-&trans            &trans        &kp LEFT_SHIFT     &trans         &trans  &trans    &trans  &trans                                        &trans
+&none             &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                            &none   &none  &none     &mkp MB4  &mkp MB5
+&kp LEFT_BRACKET  &kp SQT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                    &trans  &none   &none  &mkp MB3  &mkp MB1  &mkp MB2
+&trans            &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE    &trans  &none   &none  &trans    &trans    &trans
+&trans            &trans     &kp NUMBER_0  &trans        &trans        &trans            &trans  &trans                             &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -124,7 +144,7 @@
 
         layer_3 {
             bindings = <
-&trans          &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                       &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans          &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LG(TAB)                                  &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
 &trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &mkp MB4  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &mkp MB5  &mkp MB5  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
 &kp LCTRL       &trans              &trans                  &trans                   &trans                   &trans    &trans    &trans                                                     &trans
