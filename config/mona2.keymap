@@ -149,8 +149,8 @@
 
         layer_3 {
             bindings = <
-&trans          &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LG(TAB)                                  &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &mkp MB4  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&none           &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LG(TAB)                                  &none     &kp HOME        &kp UP_ARROW    &kp END          &none
+&none           &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &mkp MB4  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
 &kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &mkp MB5  &mkp MB5  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
 &kp LCTRL       &trans              &trans                  &trans                   &trans                   &trans    &trans    &trans                                                     &trans
             >;
