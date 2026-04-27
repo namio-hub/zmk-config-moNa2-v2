@@ -36,12 +36,12 @@
 
         click1 {
             bindings = <&mkp MB1>;
-            key-positions = <19 9>;
+            key-positions = <19 20>;
         };
 
         click2 {
             bindings = <&mkp MB2>;
-            key-positions = <20 19>;
+            key-positions = <19 9>;
         };
 
         click3 {
@@ -67,6 +67,11 @@
         right_parenthesis {
             bindings = <&kp LS(NUMBER_9)>;
             key-positions = <17 18>;
+        };
+
+        mouce_layer {
+            bindings = <&tog 1>;
+            key-positions = <30 31 32>;
         };
     };
 
@@ -111,8 +116,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &lt 3 MINUS
+&kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &lt 3 P
+&kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
 &kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &lt_to_layer_0 0 LANGUAGE_2  &lt_to_layer_0 2 LANGUAGE_1  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE                             &kp LEFT_ALT
             >;
