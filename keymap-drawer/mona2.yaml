@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '3'}
   - A
   - S
   - D
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: '3'}
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -139,7 +139,7 @@ layers:
   - HOME
   - UP ARROW
   - END
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
@@ -150,7 +150,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
@@ -306,9 +306,9 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
-- p: [19, 9]
+- p: [19, 20]
   k: '&mkp MB1'
-- p: [20, 19]
+- p: [19, 9]
   k: '&mkp MB2'
 - p: [19, 32]
   k: '&mkp MB3'
@@ -320,3 +320,5 @@ combos:
   k: Sft+8
 - p: [17, 18]
   k: Sft+9
+- p: [30, 31, 32]
+  k: {t: '1', h: toggle}
