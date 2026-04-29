@@ -118,7 +118,7 @@
             bindings = <
 &kp Q             &kp W         &kp E            &kp R                        &kp T                                                    &kp Y          &kp U  &kp I      &kp O    &lt 3 P
 &kp A             &kp S         &kp D            &kp F                        &kp G                                       &mkp MB4     &kp H          &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp TAB        &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
+&mt LEFT_SHIFT Z  &kp X         &kp C            &kp V                        &kp B                        &kp F2         &mkp MB5     &kp N          &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
 &kp LCTRL         &kp LEFT_WIN  &kp PRINTSCREEN  &lt_to_layer_0 0 LANGUAGE_2  &lt_to_layer_0 2 LANGUAGE_1  &lt 1 SPACE    &lt 3 ENTER  &kp BACKSPACE                             &kp LEFT_ALT
             >;
 
@@ -127,13 +127,13 @@
 
         layer_1 {
             bindings = <
-&none             &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                            &none   &none  &none     &mkp MB4  &mkp MB5
+&none             &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                            &none   &none  &mkp MB4  &mkp MB5  &lt 3 F2
 &kp LEFT_BRACKET  &kp SQT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                    &trans  &none   &none  &mkp MB3  &mkp MB1  &mkp MB2
 &trans            &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE    &trans  &none   &none  &trans    &trans    &trans
 &trans            &trans     &kp NUMBER_0  &trans        &trans        &trans            &trans  &trans                             &trans
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
@@ -155,7 +155,7 @@
 &kp LCTRL       &trans              &trans                  &trans                   &trans                   &trans    &trans    &trans                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
