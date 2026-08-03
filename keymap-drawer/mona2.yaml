@@ -320,5 +320,3 @@ combos:
   k: Sft+8
 - p: [17, 18]
   k: Sft+9
-- p: [30, 31, 32]
-  k: {t: '1', h: toggle}
