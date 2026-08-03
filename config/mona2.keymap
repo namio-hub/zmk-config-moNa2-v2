@@ -68,11 +68,6 @@
             bindings = <&kp LS(NUMBER_9)>;
             key-positions = <17 18>;
         };
-
-        mouce_layer {
-            bindings = <&tog 1>;
-            key-positions = <30 31 32>;
-        };
     };
 
     macros {
