@@ -314,7 +314,7 @@ combos:
   k: Sft+8
 - p: [17, 18]
   k: Sft+9
-- p: [8, 9]
-  k: Ctl+TAB
 - p: [8, 7]
   k: Ctl+Sft+TAB
+- p: [9, 8]
+  k: Ctl+TAB
