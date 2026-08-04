@@ -34,21 +34,6 @@
             key-positions = <11 12>;
         };
 
-        click1 {
-            bindings = <&mkp MB1>;
-            key-positions = <19 20>;
-        };
-
-        click2 {
-            bindings = <&mkp MB2>;
-            key-positions = <19 9>;
-        };
-
-        click3 {
-            bindings = <&mkp MB3>;
-            key-positions = <19 32>;
-        };
-
         left_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <2 3>;
@@ -67,6 +52,16 @@
         right_parenthesis {
             bindings = <&kp LS(NUMBER_9)>;
             key-positions = <17 18>;
+        };
+
+        tab_right_change {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <8 9>;
+        };
+
+        tab_change_left {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <8 7>;
         };
     };
 
