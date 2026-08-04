@@ -306,12 +306,6 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
-- p: [19, 20]
-  k: '&mkp MB1'
-- p: [19, 9]
-  k: '&mkp MB2'
-- p: [19, 32]
-  k: '&mkp MB3'
 - p: [2, 3]
   k: ']'
 - p: [6, 7]
@@ -320,3 +314,7 @@ combos:
   k: Sft+8
 - p: [17, 18]
   k: Sft+9
+- p: [8, 9]
+  k: Ctl+TAB
+- p: [8, 7]
+  k: Ctl+Sft+TAB
