@@ -54,14 +54,14 @@
             key-positions = <17 18>;
         };
 
-        tab_right_change {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <8 9>;
-        };
-
         tab_change_left {
             bindings = <&kp LC(LS(TAB))>;
             key-positions = <8 7>;
+        };
+
+        tab_change_right {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <9 8>;
         };
     };
 
