@@ -249,7 +249,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -306,15 +306,11 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
-- p: [2, 3]
-  k: ']'
-- p: [6, 7]
-  k: \
 - p: [12, 13]
   k: Sft+8
 - p: [17, 18]
   k: Sft+9
-- p: [8, 7]
-  k: Ctl+Sft+TAB
-- p: [9, 8]
-  k: Ctl+TAB
+- p: [23, 24]
+  k: ']'
+- p: [29, 30]
+  k: \
