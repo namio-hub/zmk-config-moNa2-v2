@@ -34,16 +34,6 @@
             key-positions = <11 12>;
         };
 
-        left_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <2 3>;
-        };
-
-        right_bracket {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <6 7>;
-        };
-
         left_parenthesis {
             bindings = <&kp LS(NUMBER_8)>;
             key-positions = <12 13>;
@@ -54,14 +44,14 @@
             key-positions = <17 18>;
         };
 
-        tab_change_left {
-            bindings = <&kp LC(LS(TAB))>;
-            key-positions = <8 7>;
+        left_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <23 24>;
         };
 
-        tab_change_right {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <9 8>;
+        right_bracket {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <29 30>;
         };
     };
 
@@ -161,10 +151,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &mkp MB3  &mkp MB1  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &mkp MB4  &mkp MB5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
+&trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans    &trans    &trans
+&trans     &trans  &trans  &trans  &trans            &trans  &trans  &trans  &mkp MB3  &mkp MB1  &mkp MB2
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &mkp MB4  &mkp MB5
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
