@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - Sft+INTERNATIONAL 1
+  - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -135,7 +135,7 @@ layers:
   - PRINTSCREEN
   - Ctl+TAB
   - Gui+TAB
-  - ''
+  - INT MUHENKAN
   - HOME
   - UP ARROW
   - END
@@ -146,7 +146,7 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
   - '&mkp MB4'
-  - '&mkp MB4'
+  - F7
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - '&mkp MB5'
-  - DELETE
+  - F8
+  - INT HENKAN
   - PAGE UP
   - PAGE DOWN
   - {t: ▽, type: trans}
