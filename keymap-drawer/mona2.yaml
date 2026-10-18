@@ -35,8 +35,8 @@ layers:
   - .
   - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
+  - LEFT WIN
   - {t: '&to_layer_0 LANGUAGE_2', h: default}
   - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
   - {t: SPACE, h: '1'}
